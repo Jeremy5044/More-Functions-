@@ -42,9 +42,10 @@ var materialsItems=items.filter(function(object){
 	return (object.materials.length > 8)
 });
 
+
 for(i=0;i < materialsItems.length; i++){
-	answer5.innerHTML+= "<p>" + materialsItems[i].title +"</p>";
-}
+	answer5.innerHTML+= "<p>" +  materialsItems[i].title +"</p>"+"<p>" + materialsItems[i].materials + "</p>";
+};
 
 //for(i=0;i < materialsItems.length; i++){
 //	console.log(materialsItems[i].length);
